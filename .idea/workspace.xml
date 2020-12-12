@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68d71677-5904-46bf-b8a6-a3a441acd593" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/api/posts_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/javascript/components/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/javascript/components/Home/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/javascript/components/Posts/Posts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/pages/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/hello_react.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/hello_react.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/components/Nav/Nav.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/components/Posts/Posts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/api/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/posts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/components/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/components/Posts/Posts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/components/Posts/Posts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607780208160</updated>
-      <workItem from="1607780209276" duration="2004000" />
+      <workItem from="1607780209276" duration="3238000" />
     </task>
     <servers />
   </component>
