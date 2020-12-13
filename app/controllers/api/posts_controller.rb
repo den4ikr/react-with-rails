@@ -9,7 +9,7 @@ module API
 
     def create
       @@posts.push(params[:post][:title])
-      render json: { params: params }
+      render json: { posts: posts }
     end
 
     private

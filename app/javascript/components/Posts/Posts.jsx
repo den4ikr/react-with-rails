@@ -33,6 +33,7 @@ const Posts = (props) => {
             .then(response => {
                 console.log(response);
                 console.log(response.data);
+                setPosts({ posts: response.data.posts })
             })
     }
 
