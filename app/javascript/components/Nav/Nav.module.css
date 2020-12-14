@@ -1,0 +1,9 @@
+.row {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.menu__item:last-child {
+    padding-left: 15px;
+}

@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import s from "./Posts.module.css";
+import {NavLink} from "react-router-dom";
 
 const Posts = (props) => {
 
@@ -45,12 +46,17 @@ const Posts = (props) => {
             })
     }, [] )
 
+
     return (
         <div>
             <div>
-                {Object.values (posts).map(post => (
-                    <div key={post}>{post}</div>
-                ))}
+                <ul className="list-group" >
+                    {Object.values (posts).map(post => (
+                        post.map (item => (
+                            <li key = {item} className="list-group-item" ><NavLink to = "#" >{item}</NavLink></li>
+                        ))
+                    ))}
+                </ul>
             </div>
             <div>
                 <form onSubmit={onFormSubmit} >

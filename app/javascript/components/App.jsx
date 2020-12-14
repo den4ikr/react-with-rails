@@ -6,7 +6,7 @@ import { Route, Switch } from 'react-router-dom'
 
 const App = (props) => {
     return (
-        <div>
+        <div className="container" >
             <Nav />
             <Switch>
                 <Route exact path="/" render={ () => <Home /> } />
